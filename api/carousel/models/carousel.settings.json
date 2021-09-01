@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carousels",
+  "info": {
+    "name": "carousel_slide",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.button"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
