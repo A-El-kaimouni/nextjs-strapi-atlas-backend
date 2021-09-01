@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "carousels",
+  "collectionName": "slides",
   "info": {
-    "name": "carousel_slide",
+    "name": "slides",
     "description": ""
   },
   "options": {
@@ -18,8 +18,11 @@
     "title": {
       "type": "string"
     },
+    "description": {
+      "type": "text"
+    },
     "background": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -30,13 +33,10 @@
       "required": false,
       "pluginOptions": {}
     },
-    "button": {
+    "links": {
       "type": "component",
       "repeatable": true,
       "component": "elements.button"
-    },
-    "description": {
-      "type": "text"
     }
   }
 }
