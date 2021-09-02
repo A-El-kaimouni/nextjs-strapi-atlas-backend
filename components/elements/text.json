@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_elements_texts",
+  "info": {
+    "name": "text",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}

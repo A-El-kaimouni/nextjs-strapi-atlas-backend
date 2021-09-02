@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "name": "Footer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "default": "unseted value! , go to dashboard > Footer > decription field to edit"
+    },
+    "phone": {
+      "type": "string",
+      "default": "unseted value! go to Dashboard > Footer > Phone field"
+    },
+    "email": {
+      "type": "string",
+      "default": "unseted value! go to Dashboard > Footer > email field"
+    },
+    "adress": {
+      "type": "string",
+      "default": "unseted value! go to Dashboard > Footer > Adresse field"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.links"
+    }
+  }
+}
