@@ -1,0 +1,8 @@
+{
+    "provider": "cloudinary",
+    "providerOptions" : {
+        "cloud_name": "ondma", 
+        "api_key": "172181977487237", 
+        "api_secret": "2AjsSd_usKudn3tzHcAwFQOoy30"
+    }
+}
