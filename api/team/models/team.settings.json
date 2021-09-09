@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "services",
+  "collectionName": "teams",
   "info": {
-    "name": "Services",
-    "description": ""
+    "name": "Team"
   },
   "options": {
     "increments": true,
@@ -12,8 +11,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "icon": {
-      "model": "file",
+    "name": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "image": {
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -24,11 +29,10 @@
       "required": false,
       "pluginOptions": {}
     },
-    "title": {
-      "type": "string"
-    },
-    "description": {
-      "type": "richtext"
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.links"
     }
   }
 }
