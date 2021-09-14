@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_elements_page_headers",
+  "info": {
+    "name": "Page_Header",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "tite": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

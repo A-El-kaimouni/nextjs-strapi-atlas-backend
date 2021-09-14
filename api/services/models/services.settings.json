@@ -8,7 +8,7 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -29,6 +29,10 @@
     },
     "description": {
       "type": "richtext"
+    },
+    "projects": {
+      "via": "services",
+      "collection": "portofolio"
     }
   }
 }

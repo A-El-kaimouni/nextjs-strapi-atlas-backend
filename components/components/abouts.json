@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_components_abouts",
+  "info": {
+    "name": "abouts",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "abouts": {
+      "collection": "abouts"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_teams",
+  "info": {
+    "name": "team",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.section-header"
+    },
+    "teams": {
+      "collection": "team"
+    }
+  }
+}

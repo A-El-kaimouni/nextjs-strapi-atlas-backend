@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_elements_section_headers",
+  "info": {
+    "name": "Section_Header",
+    "icon": "arrow-circle-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

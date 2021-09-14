@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_statics",
+  "info": {
+    "name": "statics",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "static": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.statics"
+    }
+  }
+}

@@ -8,7 +8,7 @@
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -33,10 +33,39 @@
       "required": false,
       "pluginOptions": {}
     },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "video": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "order": {
+      "type": "integer",
+      "default": 0,
+      "min": 0,
+      "required": true,
+      "unique": true
+    },
     "links": {
       "type": "component",
       "repeatable": true,
-      "component": "elements.button"
+      "component": "elements.link-button"
     }
   }
 }

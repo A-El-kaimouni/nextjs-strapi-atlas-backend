@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_elements_buttons",
+  "collectionName": "components_elements_link_buttons",
   "info": {
-    "name": "button",
-    "icon": "stop",
+    "name": "link_button",
+    "icon": "archway",
     "description": ""
   },
   "options": {},
@@ -10,7 +10,7 @@
     "title": {
       "type": "string"
     },
-    "link": {
+    "href": {
       "type": "string"
     }
   }

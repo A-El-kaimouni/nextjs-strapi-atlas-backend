@@ -2,15 +2,14 @@
   "collectionName": "components_elements_links",
   "info": {
     "name": "links",
-    "icon": "align-justify",
-    "description": ""
+    "icon": "align-justify"
   },
   "options": {},
   "attributes": {
     "link": {
       "type": "component",
       "repeatable": true,
-      "component": "elements.button"
+      "component": "elements.link-button"
     }
   }
-} 
+}

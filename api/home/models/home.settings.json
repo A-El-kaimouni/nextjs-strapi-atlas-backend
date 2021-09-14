@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "Home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false,
+    "autoPopulate": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "components.services",
+        "components.statics",
+        "components.portofolio",
+        "components.team",
+        "components.abouts",
+        "components.testimonials",
+        "components.contact-with-map"
+      ],
+      "pluginOptions": {}
+    }
+  }
+}

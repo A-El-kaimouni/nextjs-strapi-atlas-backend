@@ -2,12 +2,13 @@
   "kind": "collectionType",
   "collectionName": "teams",
   "info": {
-    "name": "Team"
+    "name": "Team",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -18,7 +19,7 @@
       "type": "string"
     },
     "image": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
@@ -29,10 +30,10 @@
       "required": false,
       "pluginOptions": {}
     },
-    "social": {
+    "social_media": {
       "type": "component",
       "repeatable": true,
-      "component": "elements.links"
+      "component": "elements.social-icon"
     }
   }
 }

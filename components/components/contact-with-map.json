@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_contact_with_maps",
+  "info": {
+    "name": "Contact_With_Map",
+    "icon": "map-marked-alt"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.section-header"
+    }
+  }
+}

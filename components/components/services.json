@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_services",
+  "info": {
+    "name": "services",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.section-header"
+    },
+    "services": {
+      "collection": "services"
+    }
+  }
+}

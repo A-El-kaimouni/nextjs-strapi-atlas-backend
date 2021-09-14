@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "abouts",
+  "collectionName": "portofolios",
   "info": {
-    "name": "Abouts",
+    "name": "Portofolio",
     "description": ""
   },
   "options": {
@@ -12,19 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "key": {
+    "title": {
       "type": "string"
     },
-    "title": {
-      "type": "text"
-    },
     "description": {
-      "type": "richtext"
-    },
-    "text": {
-      "type": "component",
-      "repeatable": true,
-      "component": "elements.text"
+      "type": "text"
     },
     "image": {
       "model": "file",
@@ -38,10 +30,10 @@
       "required": false,
       "pluginOptions": {}
     },
-    "button": {
-      "type": "component",
-      "repeatable": false,
-      "component": "elements.link-button"
+    "services": {
+      "via": "projects",
+      "collection": "services",
+      "dominant": true
     }
   }
 }
