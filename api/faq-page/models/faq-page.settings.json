@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "faq_pages",
+  "info": {
+    "name": "FaqPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "components.contact",
+        "components.testimonials",
+        "components.statics",
+        "components.portofolio",
+        "components.team",
+        "components.faqs",
+        "components.services",
+        "components.contact-with-map",
+        "components.abouts"
+      ]
+    }
+  }
+}

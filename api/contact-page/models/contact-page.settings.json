@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_pages",
+  "info": {
+    "name": "ContactPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "components.contact",
+        "components.testimonials",
+        "components.statics",
+        "components.portofolio",
+        "components.team",
+        "components.services",
+        "components.contact-with-map",
+        "components.abouts"
+      ]
+    }
+  }
+}

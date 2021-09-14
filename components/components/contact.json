@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_components_contacts",
+  "info": {
+    "name": "contact",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.section-header"
+    },
+    "form_header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.section-header"
+    },
+    "email1": {
+      "type": "email"
+    },
+    "email2": {
+      "type": "email"
+    },
+    "adress1": {
+      "type": "text"
+    },
+    "adress2": {
+      "type": "text"
+    },
+    "phone1": {
+      "type": "string"
+    },
+    "phone2": {
+      "type": "string"
+    }
+  }
+}

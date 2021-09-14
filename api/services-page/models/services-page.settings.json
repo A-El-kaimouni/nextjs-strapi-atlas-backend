@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "services_pages",
+  "info": {
+    "name": "ServicesPage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "components.testimonials",
+        "components.statics",
+        "components.portofolio",
+        "components.team",
+        "components.services",
+        "components.contact-with-map",
+        "components.abouts"
+      ]
+    }
+  }
+}
