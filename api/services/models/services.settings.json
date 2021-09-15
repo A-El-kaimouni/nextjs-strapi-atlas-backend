@@ -33,6 +33,43 @@
     "projects": {
       "via": "services",
       "collection": "portofolio"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "components.contact",
+        "components.testimonials",
+        "components.statics",
+        "components.portofolio",
+        "components.team",
+        "components.faqs",
+        "components.services",
+        "components.gallery",
+        "components.contact-with-map",
+        "components.abouts",
+        "components.service-info",
+        "components.service-features",
+        "components.service-portofolio"
+      ],
+      "required": true
+    },
+    "full_sections": {
+      "type": "dynamiczone",
+      "components": [
+        "components.contact",
+        "components.service-portofolio",
+        "components.testimonials",
+        "components.service-features",
+        "components.statics",
+        "components.portofolio",
+        "components.team",
+        "components.faqs",
+        "components.services",
+        "components.gallery",
+        "components.contact-with-map",
+        "components.abouts",
+        "components.service-info"
+      ]
     }
   }
 }

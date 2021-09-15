@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_service_portofolios",
+  "info": {
+    "name": "Service_Portofolio",
+    "icon": "project-diagram"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.section-header"
+    },
+    "portofolios": {
+      "collection": "portofolio"
+    }
+  }
+}
