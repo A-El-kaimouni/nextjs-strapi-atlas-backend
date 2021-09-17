@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_elements_empties",
+  "info": {
+    "name": "empty",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "tedt": {
+      "type": "string"
+    }
+  }
+}

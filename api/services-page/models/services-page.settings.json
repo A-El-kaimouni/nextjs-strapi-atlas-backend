@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "services_pages",
   "info": {
-    "name": "ServicesPage"
+    "name": "ServicesPage",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -22,6 +23,12 @@
         "components.contact-with-map",
         "components.abouts"
       ]
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.seo",
+      "required": true
     }
   }
 }

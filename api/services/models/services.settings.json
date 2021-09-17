@@ -49,7 +49,8 @@
         "components.abouts",
         "components.service-info",
         "components.service-features",
-        "components.service-portofolio"
+        "components.service-portofolio",
+        "components.steps"
       ],
       "required": true
     },
@@ -70,6 +71,17 @@
         "components.abouts",
         "components.service-info"
       ]
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.seo",
+      "required": true
     }
   }
 }

@@ -25,6 +25,12 @@
         "components.contact-with-map"
       ],
       "pluginOptions": {}
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.seo",
+      "required": true
     }
   }
 }

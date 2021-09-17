@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_components_steps",
+  "info": {
+    "name": "steps",
+    "icon": "list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.section-header"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.step"
+    },
+    "last_key": {
+      "type": "string"
+    }
+  }
+}

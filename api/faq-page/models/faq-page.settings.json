@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "faq_pages",
   "info": {
-    "name": "FaqPage"
+    "name": "FaqPage",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -24,6 +25,12 @@
         "components.contact-with-map",
         "components.abouts"
       ]
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.seo",
+      "required": true
     }
   }
 }

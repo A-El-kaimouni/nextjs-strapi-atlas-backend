@@ -32,6 +32,20 @@
       "type": "component",
       "repeatable": true,
       "component": "elements.links"
+    },
+    "subscribe_message": {
+      "type": "string"
+    },
+    "subscribe_placeholder": {
+      "type": "string"
+    },
+    "subscribe_button": {
+      "type": "string"
+    },
+    "social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.social-icon"
     }
   }
 }

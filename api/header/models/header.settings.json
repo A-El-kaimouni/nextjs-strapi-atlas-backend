@@ -20,6 +20,24 @@
     },
     "address": {
       "type": "string"
+    },
+    "home": {
+      "type": "string"
+    },
+    "portofolio": {
+      "type": "string"
+    },
+    "services": {
+      "type": "string"
+    },
+    "about": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "faq": {
+      "type": "string"
     }
   }
 }
